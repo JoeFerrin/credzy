@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_credzy_1696283592861-pr-trigger-input-set
+  identifier: Build_credzy_1696283592861prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: TEST
+  pipeline:
+    identifier: Build_credzy_1696283592861
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
