@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_credzy_1696283592861-push-trigger-input-set
+  identifier: Build_credzy_1696283592861pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: TEST
+  pipeline:
+    identifier: Build_credzy_1696283592861
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
